@@ -40,7 +40,7 @@ class App extends Component {
         {
           validSearch ?
             <Results data={validSearch} /> :
-            <span>Invalid character! search just accept numbers, ':', '-' and, '.'</span>
+            <div>Invalid character! search just accept numbers, ':', '-' and, '.'</div>
         }
       </div>
     );

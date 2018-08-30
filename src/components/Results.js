@@ -31,7 +31,7 @@ export function Results(props) {
               </TableRow>
           )}
         </TableBody>
-      </Table> : <span>No results!</span>
+      </Table> : <div>No results!</div>
     }
     </div>
   );
